@@ -30,7 +30,7 @@ try:
         stockList.append(qtdStock)
 
         price = driver.find_element(By.CLASS_NAME, 'price_color').text
-        priceList.append(qtdStock)
+        priceList.append(price)
 
         driver.back()
 
